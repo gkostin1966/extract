@@ -51,8 +51,8 @@ config :phoenix, :stacktrace_depth, 20
 # Configure your database
 config :extract, Extract.Repo,
   adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
-  password: "postgres",
+  username: "extract",
+  password: "extract",
   database: "extract_dev",
   hostname: "localhost",
   pool_size: 10
